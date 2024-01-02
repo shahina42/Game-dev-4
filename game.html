@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scr">
+        <div id="score-box1">0</div>
+        -
+        <div id="score-box2">0</div>
+    </div>
+    <div class="main">
+        <div class="player-box">
+            <div class="you">You</div>
+            <img id="player_hand" src="/rock-paper-scissors-boilerplate/assets/rock-hand.png"  width="350px" height="210px">
+            <div class="choices">
+                <div class="logo" id="rock"><img src="assets/rock-logo.png" width="70px"></div>
+                <div class="logo" id="paper"><img src="assets/paper-logo.png" width="70px"></div>
+                <div class="logo" id="scissor"><img src="assets/scissors-logo.png" width="70px"></div>
+            </div>
+        </div>
+        <div class="vs"><img src="assets/vs.png" width="85px"></div>
+        <div class="comp-box">
+            <div class="com">Comp</div>
+            <img src="assets/rock-hand.png" id="comp_hand" width="350px" height="210px">
+        </div>
+    </div>
+    <div class = "result">
+        <span id = "resultMatch"></span>
+        <div id = "playAgain" style="visibility: hidden;">Play Again
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
